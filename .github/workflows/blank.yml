@@ -32,8 +32,8 @@ jobs:
       matrix:
         ##### EDIT ME #####      
         EDITION: [mate]
-        BRANCH: [stable, testing]
-        SCOPE: [minimal,full]
+        BRANCH: [stable]
+        SCOPE: [full]
         ###################
     steps:
       # cancel already running instances of the same action on the currently working on branch
